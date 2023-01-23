@@ -24,7 +24,7 @@ public class SungJukService { // menu()
 			System.out.println("   6. 끝내기");	
 			System.out.println("*************");
 			System.out.print("  번호 : ");
-			num = scan.nextInt();
+			num = scan.nextInt(); 
 			
 			if(num == 6) break; //while를 벗어나라
 			if(num == 1) {
